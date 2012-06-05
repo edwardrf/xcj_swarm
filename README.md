@@ -9,7 +9,8 @@ Build a swarm of robots with autonomus behavior to achieve their goals by intera
 
 Requirements:
 
-Each basic robot contains the fllowing:
+Each basic robot contains the following:
+	
 	- 1x microcontroller Attiny2313
 	- 1x motor controller L293D
 	- 2x gear motors
