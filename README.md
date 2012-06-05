@@ -10,12 +10,12 @@ Build a swarm of robots with autonomus behavior to achieve their goals by intera
 Requirements:
 
 Each basic robot contains the fllowing:
-	* 1x microcontroller Attiny2313
-	* 1x motor controller L293D
-	* 2x gear motors
-	* 1x LiPo battery 3.7V
-	* 1x IR sensor + IR emitter
-	* 1x microfon
+	- 1x microcontroller Attiny2313
+	- 1x motor controller L293D
+	- 2x gear motors
+	- 1x LiPo battery 3.7V
+	- 1x IR sensor + IR emitter
+	- 1x microfon
 
 A custom made PCB will be used. This PCB will be mounted into a 3D printed casing which contains the gear motors and the wheels as well the IR sensor array.
 
