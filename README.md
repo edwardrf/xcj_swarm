@@ -39,8 +39,12 @@ The basic programming is:
 	- tell others where to find power (sunlight)
 	- tell others where is an obstacle or danger
 
+Folder structure:
+
+/kicad kicad schematics and PCB design files
+
 More at the XinCheJian website www.xinchejian.com
 
 //Will be updated...
 
-Thius is an update
+This is the last change from Lutz
