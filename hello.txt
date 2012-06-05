@@ -1,4 +1,6 @@
 Hello world!
-Hello Lutz ;-)
 
-Now we are going to use the "easy" way to work with Git :-)
+This is the start of the XinCheJian swarm robot project.
+Please read the Readme file to get the information about the Swarm Robot Project!
+
+More at the XinCheJian website www.xinchejian.com

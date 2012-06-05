@@ -7,6 +7,21 @@ Introduction:
 
 Build a swarm of robots with autonomus behavior to achieve their goals by interacting with each other using IR communication.
 
+Requirements:
+
+Each basic robot contains the fllowing:
+1x microcontroller Attiny2313
+1x motor controller L293D
+2x gear motors
+1x LiPo battery 3.7V
+1x IR sensor + IR emitter
+1x microfon
+
+A custom made PCB will be used. This PCB will be mounted into a 3D printed casing which contains the gear motors and the wheels as well the IR sensor array.
+
+Maximum price for the basic robot should not exceed 5US$
+
+
 Each robot will have a basic programming and basic hardware platform. 
 The basic programming is:
 
@@ -22,5 +37,7 @@ The basic programming is:
 	- help dead robots with a charger robot
 	- tell others where to find power (sunlight)
 	- tell others where is an obstacle or danger
+
+More at the XinCheJian website www.xinchejian.com
 
 Will be updated...
