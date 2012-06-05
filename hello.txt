@@ -1,2 +1,4 @@
 Hello world!
 Hello Lutz ;-)
+
+Now we are going to use the "easy" way to work with Git :-)
