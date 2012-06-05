@@ -47,4 +47,3 @@ More at the XinCheJian website www.xinchejian.com
 
 //Will be updated...
 
-This is the last change from Lutz
