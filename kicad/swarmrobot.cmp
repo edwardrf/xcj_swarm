@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Sun 03 Jun 2012 09:02:36 PM CST
+
+BeginCmp
+TimeStamp = /4FC08CDA;
+Reference = ATTINY2313;
+ValeurCmp = ATTINY2313DIP/SO;
+IdModule  = DIP-20__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB35A1;
+Reference = ICSP1;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC08C3D;
+Reference = L293D1;
+ValeurCmp = L293D;
+IdModule  = DIP-16__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB314B;
+Reference = M1;
+ValeurCmp = CONN_2;
+IdModule  = PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB3180;
+Reference = M2;
+ValeurCmp = CONN_2;
+IdModule  = PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB44E0;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB44F7;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = PINHEAD1-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB44EE;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB44FB;
+Reference = P4;
+ValeurCmp = CONN_6;
+IdModule  = PINHEAD1-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB4A84;
+Reference = PWR_IN1;
+ValeurCmp = CONN_2;
+IdModule  = PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB38CF;
+Reference = PWR_LED1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB29B6;
+Reference = PWR_SWITCH1;
+ValeurCmp = SWITCH_INV;
+IdModule  = swdip3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB38C4;
+Reference = R1;
+ValeurCmp = 200;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB377D;
+Reference = R2;
+ValeurCmp = 200;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB3791;
+Reference = R3;
+ValeurCmp = 200;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB380A;
+Reference = RX_LED1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCB3813;
+Reference = TX_LED1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC08FE2;
+Reference = U1;
+ValeurCmp = 78L05;
+IdModule  = LM78LXX;
+EndCmp
+
+EndListe

@@ -1,0 +1,170 @@
+# EESchema Netlist Version 1.1 created  Sun 03 Jun 2012 09:02:36 PM CST
+(
+ ( /4FC08CDA DIP-20__300 ATTINY2313 ATTINY2313DIP/SO
+  ( 1 N-000030 )
+  ( 2 N-000023 )
+  ( 3 N-000003 )
+  ( 4 N-000014 )
+  ( 5 N-000024 )
+  ( 6 N-000025 )
+  ( 7 N-000026 )
+  ( 8 N-000004 )
+  ( 9 N-000010 )
+  ( 10 GND )
+  ( 11 N-000028 )
+  ( 12 N-000005 )
+  ( 13 N-000027 )
+  ( 14 N-000011 )
+  ( 15 N-000002 )
+  ( 16 N-000012 )
+  ( 17 N-000009 )
+  ( 18 N-000029 )
+  ( 19 N-000013 )
+  ( 20 N-000031 )
+ )
+ ( /4FCB35A1 pin_array_3x2 ICSP1 CONN_3X2
+  ( 1 N-000029 )
+  ( 2 N-000031 )
+  ( 3 N-000013 )
+  ( 4 N-000009 )
+  ( 5 N-000030 )
+  ( 6 GND )
+ )
+ ( /4FC08C3D DIP-16__300 L293D1 L293D
+  ( 1 N-000011 )
+  ( 2 N-000014 )
+  ( 3 N-000020 )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 N-000015 )
+  ( 7 N-000024 )
+  ( 8 N-000016 )
+  ( 9 N-000010 )
+  ( 10 N-000026 )
+  ( 11 N-000017 )
+  ( 12 GND )
+  ( 13 GND )
+  ( 14 N-000019 )
+  ( 15 N-000025 )
+  ( 16 N-000031 )
+ )
+ ( /4FCB314B PINHEAD1-2 M1 CONN_2
+  ( 1 N-000015 )
+  ( 2 N-000020 )
+ )
+ ( /4FCB3180 PINHEAD1-2 M2 CONN_2
+  ( 1 N-000019 )
+  ( 2 N-000017 )
+ )
+ ( /4FCB44E0 PINHEAD1-2 P1 CONN_2
+  ( 1 N-000031 )
+  ( 2 GND )
+ )
+ ( /4FCB44F7 PINHEAD1-6 P2 CONN_6
+  ( 1 N-000023 )
+  ( 2 N-000003 )
+  ( 3 N-000004 )
+  ( 4 N-000027 )
+  ( 5 N-000005 )
+  ( 6 N-000028 )
+ )
+ ( /4FCB44EE PINHEAD1-2 P3 CONN_2
+  ( 1 GND )
+  ( 2 N-000031 )
+ )
+ ( /4FCB44FB PINHEAD1-6 P4 CONN_6
+  ( 1 N-000030 )
+  ( 2 N-000013 )
+  ( 3 N-000029 )
+  ( 4 N-000009 )
+  ( 5 N-000012 )
+  ( 6 N-000002 )
+ )
+ ( /4FCB4A84 PINHEAD1-2 PWR_IN1 CONN_2
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /4FCB38CF LED-3MM PWR_LED1 LED
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /4FCB29B6 swdip3 PWR_SWITCH1 SWITCH_INV
+  ( 1 ? )
+  ( 2 N-000001 )
+  ( 3 N-000016 )
+ )
+ ( /4FCB38C4 R1 R1 200
+  ( 1 N-000006 )
+  ( 2 N-000031 )
+ )
+ ( /4FCB377D R1 R2 200
+  ( 1 N-000008 )
+  ( 2 N-000023 )
+ )
+ ( /4FCB3791 R1 R3 200
+  ( 1 N-000007 )
+  ( 2 N-000003 )
+ )
+ ( /4FCB380A LED-3MM RX_LED1 LED
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /4FCB3813 LED-3MM TX_LED1 LED
+  ( 1 N-000007 )
+  ( 2 GND )
+ )
+ ( /4FC08FE2 LM78LXX U1 78L05
+  ( GND GND )
+  ( VI N-000016 )
+  ( VO N-000031 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component PWR_LED1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component RX_LED1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component TX_LED1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$endfootprintlist
+}
