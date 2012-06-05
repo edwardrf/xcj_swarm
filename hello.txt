@@ -1,7 +1,0 @@
-Hello world!
-
-This is the start of the XinCheJian swarm robot project.
-Please read the Readme file to get the information about the Swarm Robot Project!
-
-More at the XinCheJian website www.xinchejian.com
--------------------------------------------------
