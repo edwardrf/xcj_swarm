@@ -1,0 +1,129 @@
+# EESchema Netlist Version 1.1 created  12/06/2012 00:17:17
+(
+ ( /4FC08CDA DIP-20__300 ATTINY2313 ATTINY2313DIP/SO
+  ( 1 N-000029 )
+  ( 2 N-000023 )
+  ( 3 N-000026 )
+  ( 4 N-000012 )
+  ( 5 N-000024 )
+  ( 6 N-000025 )
+  ( 7 N-000016 )
+  ( 8 N-000003 )
+  ( 9 N-000013 )
+  ( 10 GND )
+  ( 11 N-000007 )
+  ( 12 N-000001 )
+  ( 13 N-000008 )
+  ( 14 N-000009 )
+  ( 15 N-000005 )
+  ( 16 N-000010 )
+  ( 17 N-000006 )
+  ( 18 N-000028 )
+  ( 19 N-000011 )
+  ( 20 N-000027 )
+ )
+ ( /4FCB35A1 pin_array_3x2 ICSP1 CONN_3X2
+  ( 1 N-000028 )
+  ( 2 N-000027 )
+  ( 3 N-000011 )
+  ( 4 N-000006 )
+  ( 5 N-000029 )
+  ( 6 GND )
+ )
+ ( /4FC08C3D DIP-16__300 L293D1 L293D
+  ( 1 N-000009 )
+  ( 2 N-000012 )
+  ( 3 N-000019 )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 N-000014 )
+  ( 7 N-000024 )
+  ( 8 N-000015 )
+  ( 9 N-000013 )
+  ( 10 N-000016 )
+  ( 11 N-000017 )
+  ( 12 GND )
+  ( 13 GND )
+  ( 14 N-000018 )
+  ( 15 N-000025 )
+  ( 16 N-000027 )
+ )
+ ( /4FCB314B PIN_ARRAY_2X1 M1 CONN_2
+  ( 1 N-000014 )
+  ( 2 N-000019 )
+ )
+ ( /4FCB3180 PIN_ARRAY_2X1 M2 CONN_2
+  ( 1 N-000018 )
+  ( 2 N-000017 )
+ )
+ ( /4FCB44E0 PIN_ARRAY_2X1 P1 CONN_2
+  ( 1 N-000027 )
+  ( 2 GND )
+ )
+ ( /4FCB44F7 PIN_ARRAY-6X1 P2 CONN_6
+  ( 1 N-000023 )
+  ( 2 N-000026 )
+  ( 3 N-000003 )
+  ( 4 N-000008 )
+  ( 5 N-000001 )
+  ( 6 N-000007 )
+ )
+ ( /4FCB44EE PIN_ARRAY_2X1 P3 CONN_2
+  ( 1 GND )
+  ( 2 N-000027 )
+ )
+ ( /4FCB44FB PIN_ARRAY-6X1 P4 CONN_6
+  ( 1 N-000029 )
+  ( 2 N-000011 )
+  ( 3 N-000028 )
+  ( 4 N-000006 )
+  ( 5 N-000010 )
+  ( 6 N-000005 )
+ )
+ ( /4FD61623 PIN_ARRAY_2X1 P5 CONN_2
+  ( 1 N-000023 )
+  ( 2 N-000026 )
+ )
+ ( /4FCB4A84 PIN_ARRAY_2X1 PWR_IN1 CONN_2
+  ( 1 N-000002 )
+  ( 2 GND )
+ )
+ ( /4FCB38CF LED-3MM PWR_LED1 LED
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /4FCB29B6 swdip3 PWR_SWITCH1 SWITCH_INV
+  ( 1 ? )
+  ( 2 N-000002 )
+  ( 3 N-000015 )
+ )
+ ( /4FCB38C4 R1 R1 200
+  ( 1 N-000004 )
+  ( 2 N-000027 )
+ )
+ ( /4FC08FE2 LM78L05 U1 78L05
+  ( GND GND )
+  ( VI N-000015 )
+  ( VO N-000027 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component PWR_LED1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

@@ -22,161 +22,176 @@
   )
   (network_out
    (Net GND 
-   (wire (path BACK 160  13500 -17500 14671 -17500 14671 -13043
-     19519 -13043 19519 -13500 20500 -13500)
-    (connect (terminal pin P3-1) (terminal pin ATTINY2313-10))
+   (wire (path BACK 160  20500 -13500 19519 -13500 19519 -14043
+     14800 -14043 14800 -19021 12724 -19021 12724 -17710
+     13500 -17710 13500 -17500)
+    (connect (terminal pin ATTINY2313-10) (terminal pin P3-1))
    )
-   (wire (path BACK 160  28667 -31000 28667 -31774 23036 -31774
-     23036 -31000 22000 -31000)
-    (connect (terminal wire) (terminal pin PWR_LED1-2))
+   (wire (path FRONT 160  23500 -16500 22203 -16500 22203 -17043
+     19781 -17043 19781 -13500 20500 -13500)
+    (connect (terminal pin L293D1-12) (terminal pin ATTINY2313-10))
    )
-   (wire (path BACK 160  28667 -31000 28667 -28402)
-    (connect (terminal wire) (terminal wire))
-   )
-   (wire (path BACK 160  20500 -13500 21230 -13500 21230 -16500
-     23500 -16500)
-    (connect (terminal pin ATTINY2313-10) (terminal pin L293D1-12))
-   )
-   (wire (path BACK 160  30000 -17500 29055 -17500 29055 -25827
-     29306 -25827 29306 -28207 29500 -28207)
+   (wire (path BACK 160  30000 -17500 30776 -17500 30776 -28013
+     29500 -28013 29500 -28207)
     (connect (terminal pin P1-2) (terminal pin U1-GND))
    )
-   (wire (path FRONT 160  14500 -30000 15515 -30000 15515 -31000
+   (wire (path BACK 160  22000 -31000 22983 -31000 22983 -30518
+     29111 -30518)
+    (connect (terminal pin PWR_LED1-2) (terminal wire))
+   )
+   (wire (path FRONT 160  14500 -30000 16005 -30000 16005 -31000
      17000 -31000)
     (connect (terminal pin ICSP1-6) (terminal pin RX_LED1-2))
    )
-   (wire (path BACK 160  30000 -31000 28667 -31000)
-    (connect (terminal pin PWR_IN1-2) (terminal wire))
-   )
-   (wire (path BACK 160  28667 -28402 29500 -28402 29500 -28207)
+   (wire (path BACK 160  29111 -30518 29111 -29150 29500 -29150
+     29500 -28207)
     (connect (terminal wire) (terminal pin U1-GND))
    )
-   (wire (path FRONT 160  30000 -17500 30000 -17500 29062 -17500
-     29062 -17500 26500 -17500)
-    (connect (terminal pin P1-2) (terminal pin L293D1-4))
+   (wire (path BACK 160  29111 -30518 29111 -31000 30000 -31000)
+    (connect (terminal wire) (terminal pin PWR_IN1-2))
    )
-   (wire (path FRONT 160  26500 -16500 23500 -16500)
-    (connect (terminal pin L293D1-5) (terminal pin L293D1-12))
+   (wire (path FRONT 160  26500 -17500 30000 -17500)
+    (connect (terminal pin L293D1-4) (terminal pin P1-2))
+   )
+   (wire (path FRONT 160  26500 -17500 23500 -17500)
+    (connect (terminal pin L293D1-4) (terminal pin L293D1-13))
    )
    (wire (path FRONT 160  17000 -31000 19500 -31000)
     (connect (terminal pin RX_LED1-2) (terminal pin TX_LED1-2))
    )
-   (wire (path FRONT 160  22000 -31000 19500 -31000)
-    (connect (terminal pin PWR_LED1-2) (terminal pin TX_LED1-2))
-   )
-   (wire (path BACK 160  26500 -16500 26500 -17500)
-    (connect (terminal pin L293D1-5) (terminal pin L293D1-4))
+   (wire (path FRONT 160  19500 -31000 22000 -31000)
+    (connect (terminal pin TX_LED1-2) (terminal pin PWR_LED1-2))
    )
    (wire (path BACK 160  23500 -16500 23500 -17500)
     (connect (terminal pin L293D1-12) (terminal pin L293D1-13))
    )
+   (wire (path BACK 160  26500 -16500 26500 -17500)
+    (connect (terminal pin L293D1-5) (terminal pin L293D1-4))
+   )
    )
    (Net N-000001 
-   (wire (path FRONT 160  30000 -30000 26000 -30000 26000 -28000)
-    (connect (terminal pin PWR_IN1-1) (terminal pin PWR_SWITCH1-2))
+   (wire (path FRONT 160  26000 -28000 26000 -30000 30000 -30000)
+    (connect (terminal pin PWR_SWITCH1-2) (terminal pin PWR_IN1-1))
    )
    )
    (Net N-000002 
-   (wire (path FRONT 160  17500 -17500 18481 -17500 18481 -18043
-     28538 -18043 28538 -18500 30000 -18500)
-    (connect (terminal pin ATTINY2313-15) (terminal pin P4-6))
+   (wire (path BACK 160  30000 -18500 29035 -18500 29035 -17021
+     30776 -17021 30776 -12759 24469 -12759 24469 -19043
+     22139 -19043 22139 -16043 16675 -16043 16675 -17500
+     17500 -17500)
+    (connect (terminal pin P4-6) (terminal pin ATTINY2313-15))
    )
    )
    (Net N-000003 
-   (wire (path FRONT 160  13500 -22500 14843 -22500 14843 -23625
-     19500 -23625 19500 -28000)
-    (connect (terminal pin P2-2) (terminal pin R3-2))
+   (wire (path BACK 160  19500 -20500 19500 -20043 16901 -20043
+     16901 -20781 14660 -20781 14660 -22203 13500 -22203
+     13500 -22500)
+    (connect (terminal wire) (terminal pin P2-2))
    )
-   (wire (path BACK 160  20500 -20500 21348 -20500 21348 -22043
-     19500 -22043 19500 -28000)
-    (connect (terminal pin ATTINY2313-3) (terminal pin R3-2))
+   (wire (path BACK 160  19500 -20500 19500 -28000)
+    (connect (terminal wire) (terminal pin R3-2))
+   )
+   (wire (path BACK 160  20500 -20500 19500 -20500)
+    (connect (terminal pin ATTINY2313-3) (terminal wire))
    )
    )
    (Net N-000004 
-   (wire (path FRONT 160  13500 -21500 14429 -21500 14429 -16043
-     19519 -16043 19519 -15500 20500 -15500)
-    (connect (terminal pin P2-3) (terminal pin ATTINY2313-8))
+   (wire (path BACK 160  20500 -15500 19519 -15500 19519 -15043
+     15480 -15043 15480 -20021 12462 -20021 12462 -21500
+     13500 -21500)
+    (connect (terminal pin ATTINY2313-8) (terminal pin P2-3))
    )
    )
    (Net N-000005 
-   (wire (path BACK 160  13500 -19500 15462 -19500 15462 -14500
-     17500 -14500)
-    (connect (terminal pin P2-5) (terminal pin ATTINY2313-12))
+   (wire (path BACK 160  17500 -14500 15218 -14500 15218 -19500
+     13500 -19500)
+    (connect (terminal pin ATTINY2313-12) (terminal pin P2-5))
    )
    )
    (Net N-000006 
-   (wire (path BACK 160  22000 -29000 22000 -30000)
-    (connect (terminal pin R1-1) (terminal pin PWR_LED1-1))
+   (wire (path BACK 160  22000 -30000 22000 -29000)
+    (connect (terminal pin PWR_LED1-1) (terminal pin R1-1))
    )
    )
    (Net N-000007 
-   (wire (path BACK 160  19500 -29000 19500 -30000)
-    (connect (terminal pin R3-1) (terminal pin TX_LED1-1))
+   (wire (path BACK 160  19500 -30000 19500 -29000)
+    (connect (terminal pin TX_LED1-1) (terminal pin R3-1))
    )
    )
    (Net N-000008 
-   (wire (path BACK 160  17000 -29000 17000 -30000)
-    (connect (terminal pin R2-1) (terminal pin RX_LED1-1))
+   (wire (path BACK 160  17000 -30000 17000 -29000)
+    (connect (terminal pin RX_LED1-1) (terminal pin R2-1))
    )
    )
    (Net N-000009 
-   (wire (path BACK 160  13500 -30000 13500 -25750 18406 -25750
-     18406 -19500 17500 -19500)
-    (connect (terminal pin ICSP1-4) (terminal pin ATTINY2313-17))
-   )
-   (wire (path FRONT 160  30000 -20500 28962 -20500 28962 -20043
-     18481 -20043 18481 -19500 17500 -19500)
+   (wire (path FRONT 160  30000 -20500 27706 -20500 27706 -19043
+     18481 -19043 18481 -19500 17500 -19500)
     (connect (terminal pin P4-4) (terminal pin ATTINY2313-17))
    )
+   (wire (path BACK 160  15662 -21678 15662 -26366 13500 -26366
+     13500 -30000)
+    (connect (terminal via) (terminal pin ICSP1-4))
+   )
+   (wire (path FRONT 160  16403 -19500 16403 -21678 15662 -21678)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BACK 160  17500 -19500 16403 -19500)
+    (connect (terminal pin ATTINY2313-17) (terminal via))
+   )
+   (via "Via[0-1]_35:25_mil" 15662 -21678)
+   (via "Via[0-1]_35:25_mil" 16403 -19500)
    )
    (Net N-000010 
-   (wire (path FRONT 160  23500 -13500 21248 -13500 21248 -14500
-     20500 -14500)
+   (wire (path FRONT 160  23500 -13500 22519 -13500 22519 -14043
+     20500 -14043 20500 -14500)
     (connect (terminal pin L293D1-9) (terminal pin ATTINY2313-9))
    )
    )
    (Net N-000011 
-   (wire (path BACK 160  17500 -16500 19117 -16500 19117 -20043
+   (wire (path BACK 160  17500 -16500 19903 -16500 19903 -20043
      25519 -20043 25519 -20500 26500 -20500)
     (connect (terminal pin ATTINY2313-14) (terminal pin L293D1-1))
    )
    )
    (Net N-000012 
-   (wire (path FRONT 160  17500 -18500 16781 -18500 16781 -17021
-     30771 -17021 30771 -16809 31038 -16809 31038 -19500
-     30000 -19500)
-    (connect (terminal pin ATTINY2313-16) (terminal pin P4-5))
+   (wire (path FRONT 160  29107 -21904 29107 -22238 21635 -22238
+     21635 -21043 16781 -21043 16781 -18500 17500 -18500)
+    (connect (terminal via) (terminal pin ATTINY2313-16))
    )
+   (wire (path BACK 160  30000 -19500 29107 -19500 29107 -21904)
+    (connect (terminal pin P4-5) (terminal via))
+   )
+   (via "Via[0-1]_35:25_mil" 29107 -21904)
    )
    (Net N-000013 
-   (wire (path BACK 160  13500 -31000 12982 -31000 12982 -24770
-     15914 -24770 15914 -21500 17500 -21500)
-    (connect (terminal pin ICSP1-3) (terminal pin ATTINY2313-19))
+   (wire (path BACK 160  17500 -21500 16019 -21500 16019 -30488
+     13500 -30488 13500 -31000)
+    (connect (terminal pin ATTINY2313-19) (terminal pin ICSP1-3))
    )
-   (wire (path FRONT 160  30000 -22500 27102 -22500 27102 -22043
-     18481 -22043 18481 -21500 17500 -21500)
-    (connect (terminal pin P4-2) (terminal pin ATTINY2313-19))
+   (wire (path FRONT 160  17500 -21500 18481 -21500 18481 -22035
+     21165 -22035 21165 -22500 30000 -22500)
+    (connect (terminal pin ATTINY2313-19) (terminal pin P4-2))
    )
    )
    (Net N-000014 
-   (wire (path FRONT 160  26500 -19500 25519 -19500 25519 -19043
-     21481 -19043 21481 -19500 20500 -19500)
-    (connect (terminal pin L293D1-2) (terminal pin ATTINY2313-4))
+   (wire (path FRONT 160  20500 -19500 22724 -19500 22724 -20043
+     25519 -20043 25519 -19500 26500 -19500)
+    (connect (terminal pin ATTINY2313-4) (terminal pin L293D1-2))
    )
    )
    (Net N-000015 
-   (wire (path FRONT 160  30000 -13500 27804 -13500 27804 -15500
-     26500 -15500)
-    (connect (terminal pin M1-1) (terminal pin L293D1-6))
+   (wire (path BACK 160  26500 -15500 27184 -15500 27184 -13500
+     30000 -13500)
+    (connect (terminal pin L293D1-6) (terminal pin M1-1))
    )
    )
    (Net N-000016 
-   (wire (path BACK 160  26500 -13500 27797 -13500 27797 -14021
-     31038 -14021 31038 -17021 28793 -17021 28793 -27500)
+   (wire (path BACK 160  26500 -13500 25781 -13500 25781 -19043
+     26957 -19043 26957 -26519 28793 -26519 28793 -27500)
     (connect (terminal pin L293D1-8) (terminal pin U1-VI))
    )
-   (wire (path FRONT 160  25000 -28000 25000 -27500 28793 -27500)
-    (connect (terminal pin PWR_SWITCH1-3) (terminal pin U1-VI))
+   (wire (path FRONT 160  28793 -27500 25000 -27500 25000 -28000)
+    (connect (terminal pin U1-VI) (terminal pin PWR_SWITCH1-3))
    )
    )
    (Net N-000017 
@@ -186,75 +201,72 @@
    )
    )
    (Net N-000019 
-   (wire (path BACK 160  23500 -18500 25769 -18500 25769 -15043
-     27220 -15043 27220 -14043 22623 -14043 22623 -12519
-     14276 -12519 14276 -13703 13500 -13703 13500 -14000)
+   (wire (path BACK 160  23500 -18500 22722 -18500 22722 -13043
+     14276 -13043 14276 -13703 13500 -13703 13500 -14000)
     (connect (terminal pin L293D1-14) (terminal pin M2-1))
    )
    )
    (Net N-000020 
-   (wire (path BACK 160  30000 -14500 27744 -14500 27744 -18500
-     26500 -18500)
-    (connect (terminal pin M1-2) (terminal pin L293D1-3))
+   (wire (path BACK 160  26500 -18500 27446 -18500 27446 -14500
+     30000 -14500)
+    (connect (terminal pin L293D1-3) (terminal pin M1-2))
    )
    )
    (Net N-000023 
-   (wire (path BACK 160  20500 -21500 18856 -21500 18856 -27019
-     17000 -27019 17000 -28000)
-    (connect (terminal pin ATTINY2313-2) (terminal pin R2-2))
+   (wire (path BACK 160  17000 -28000 18847 -28000 18847 -28543
+     19957 -28543 19957 -21500 20500 -21500)
+    (connect (terminal pin R2-2) (terminal pin ATTINY2313-2))
    )
-   (wire (path FRONT 160  13500 -23500 14174 -23500 14174 -28000
-     17000 -28000)
-    (connect (terminal pin P2-1) (terminal pin R2-2))
+   (wire (path FRONT 160  17000 -28000 17000 -23500 13500 -23500)
+    (connect (terminal pin R2-2) (terminal pin P2-1))
    )
    )
    (Net N-000024 
-   (wire (path BACK 160  20500 -18500 21481 -18500 21481 -18043
-     25233 -18043 25233 -14500 26500 -14500)
+   (wire (path FRONT 160  20500 -18500 22754 -18500 22754 -17043
+     25743 -17043 25743 -14500 26500 -14500)
     (connect (terminal pin ATTINY2313-5) (terminal pin L293D1-7))
    )
    )
    (Net N-000025 
-   (wire (path BACK 160  20500 -17500 19816 -17500 19816 -19043
-     22519 -19043 22519 -19500 23500 -19500)
-    (connect (terminal pin ATTINY2313-6) (terminal pin L293D1-15))
+   (wire (path BACK 160  23500 -19500 21573 -19500 21573 -17500
+     20500 -17500)
+    (connect (terminal pin L293D1-15) (terminal pin ATTINY2313-6))
    )
    )
    (Net N-000026 
-   (wire (path FRONT 160  23500 -14500 22361 -14500 22361 -16500
+   (wire (path FRONT 160  23500 -14500 21667 -14500 21667 -16500
      20500 -16500)
     (connect (terminal pin L293D1-10) (terminal pin ATTINY2313-7))
    )
    )
    (Net N-000027 
-   (wire (path BACK 160  13500 -20500 16354 -20500 16354 -15500
+   (wire (path BACK 160  13500 -20500 15898 -20500 15898 -15500
      17500 -15500)
     (connect (terminal pin P2-4) (terminal pin ATTINY2313-13))
    )
    )
    (Net N-000028 
-   (wire (path BACK 160  13500 -18500 15066 -18500 15066 -13500
-     17500 -13500)
-    (connect (terminal pin P2-6) (terminal pin ATTINY2313-11))
+   (wire (path BACK 160  17500 -13500 14538 -13500 14538 -18500
+     13500 -18500)
+    (connect (terminal pin ATTINY2313-11) (terminal pin P2-6))
    )
    )
    (Net N-000029 
-   (wire (path BACK 160  12500 -31000 11756 -31000 11756 -21021
-     17500 -21021 17500 -20500)
-    (connect (terminal pin ICSP1-1) (terminal pin ATTINY2313-18))
+   (wire (path BACK 160  17500 -20500 17500 -21043 15113 -21043
+     15113 -25821 12982 -25821 12982 -31000 12500 -31000)
+    (connect (terminal pin ATTINY2313-18) (terminal pin ICSP1-1))
    )
-   (wire (path FRONT 160  30000 -21500 27102 -21500 27102 -21043
-     18481 -21043 18481 -20500 17500 -20500)
+   (wire (path FRONT 160  30000 -21500 22180 -21500 22180 -20043
+     18481 -20043 18481 -20500 17500 -20500)
     (connect (terminal pin P4-3) (terminal pin ATTINY2313-18))
    )
    )
    (Net N-000030 
-   (wire (path BACK 160  14500 -31000 15314 -31000 15314 -28543
-     20500 -28543 20500 -22500)
+   (wire (path BACK 160  14500 -31000 15506 -31000 15506 -31774
+     20500 -31774 20500 -22500)
     (connect (terminal pin ICSP1-5) (terminal pin ATTINY2313-1))
    )
-   (wire (path FRONT 160  30000 -23500 24893 -23500 24893 -22500
-     20500 -22500)
+   (wire (path FRONT 160  30000 -23500 20500 -23500 20500 -22500)
     (connect (terminal pin P4-1) (terminal pin ATTINY2313-1))
    )
    )
@@ -262,38 +274,37 @@
    (rule
     (width 160)
    )
-   (wire (path BACK 160  30000 -16500 28269 -16500 28269 -22957
-     22000 -22957)
-    (connect (terminal pin P1-1) (terminal via))
+   (wire (path FRONT 160  17500 -22500 14647 -22500 14647 -16500
+     13500 -16500)
+    (connect (terminal pin ATTINY2313-20) (terminal pin P3-2))
    )
-   (wire (path BACK 160  13500 -16500 12462 -16500 12462 -20021
-     15908 -20021 15908 -15043 18219 -15043 18219 -16043
-     16830 -16043 16830 -20043 17957 -20043 17957 -22500
-     17500 -22500)
-    (connect (terminal pin P3-2) (terminal pin ATTINY2313-20))
+   (wire (path BACK 160  23500 -20500 23500 -27019 22000 -27019
+     22000 -28000)
+    (connect (terminal pin L293D1-16) (terminal pin R1-2))
    )
-   (wire (path FRONT 160  12500 -30000 12500 -29488 19957 -29488
-     19957 -28000 22000 -28000)
-    (connect (terminal pin ICSP1-2) (terminal pin R1-2))
+   (wire (path FRONT 160  16602 -28543 12500 -28543 12500 -30000)
+    (connect (terminal via) (terminal pin ICSP1-2))
    )
-   (wire (path FRONT 160  22000 -22957 22000 -23226 18481 -23226
-     18481 -22500 17500 -22500)
-    (connect (terminal via) (terminal pin ATTINY2313-20))
+   (wire (path BACK 160  17500 -22500 17500 -23481 16507 -23481
+     16507 -28543 16602 -28543)
+    (connect (terminal pin ATTINY2313-20) (terminal via))
    )
-   (wire (path BACK 160  22000 -22957 22000 -20500 23500 -20500)
-    (connect (terminal via) (terminal pin L293D1-16))
+   (wire (path FRONT 160  16602 -28543 18294 -28543)
+    (connect (terminal via) (terminal wire))
    )
-   (wire (path FRONT 160  30207 -27500 30207 -26781 22981 -26781
-     22981 -28000 22000 -28000)
+   (wire (path FRONT 160  30207 -27500 30207 -26781 22000 -26781
+     22000 -28000)
     (connect (terminal pin U1-VO) (terminal pin R1-2))
    )
-   (wire (path BACK 160  22000 -28000 22000 -23853)
+   (wire (path BACK 160  30207 -27500 30207 -25580 28336 -25580
+     28336 -16500 30000 -16500)
+    (connect (terminal pin U1-VO) (terminal pin P1-1))
+   )
+   (wire (path FRONT 160  22000 -28000 21019 -28000 21019 -28543
+     18294 -28543)
     (connect (terminal pin R1-2) (terminal wire))
    )
-   (wire (path BACK 160  22000 -23853 22000 -22957)
-    (connect (terminal wire) (terminal via))
-   )
-   (via "Via[0-1]_35:25_mil" 22000 -22957)
+   (via "Via[0-1]_35:25_mil" 16602 -28543)
    )
   )
  )

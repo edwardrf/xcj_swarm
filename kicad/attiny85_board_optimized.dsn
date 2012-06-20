@@ -1,0 +1,208 @@
+(pcb C:\Users\Lumi\git_projects\xcj_swarm\kicad\attiny85_board_optimized.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2012-01-19 BZR 3256)-stable")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Front
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Back
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  1130 -1080  1130 -1870  1920 -1870  1920 -1080  1130 -1080)
+    )
+    (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
+    (rule
+      (width 8)
+      (clearance 10.1)
+      (clearance 10.1 (type default_smd))
+      (clearance 2.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component R1
+      (place R1 1250 -1180 front 180 (PN 100))
+    )
+    (component PIN_ARRAY_5x1
+      (place Signal1 1630 -1180 front 0 (PN conn_5))
+    )
+    (component pin_array_3x2
+      (place CON1 1300 -1570 front 90 (PN "AVR-ISP-6"))
+    )
+    (component PIN_ARRAY_3X1
+      (place conn_3 1530 -1280 front 0 (PN Power))
+    )
+    (component PIN_ARRAY_2X1
+      (place Battery1 1300 -1770 front 180 (PN Power))
+      (place conn_2 1780 -1280 front 0 (PN Power))
+    )
+    (component "LED-3MM"
+      (place D1 1250 -1330 front 0 (PN LED))
+    )
+    (component "DIP-8__300"
+      (place IC1 1700 -1620 front 90 (PN "ATTINY85-P"))
+    )
+  )
+  (library
+    (image R1
+      (outline (path signal 15  -50 0  50 0))
+      (outline (path signal 15  5.9 0  3.1 -17.2  -4.8 -32.8  -17.2 -45.2  -32.8 -53.1
+            -50 -55.9  -67.2 -53.1  -82.8 -45.2  -95.2 -32.8  -103.1 -17.2
+            -105.9 0  -103.1 17.2  -95.2 32.8  -82.8 45.2  -67.2 53.1  -50 55.9
+            -32.8 53.1  -17.2 45.2  -4.8 32.8  3.1 17.2))
+      (pin Round[A]Pad_55_mil 1 -50 0)
+      (pin Round[A]Pad_55_mil 2 50 0)
+    )
+    (image PIN_ARRAY_5x1
+      (outline (path signal 12  -250 50  -250 -50))
+      (outline (path signal 12  250 -50  250 50))
+      (outline (path signal 12  -250 50  250 50))
+      (outline (path signal 12  250 -50  -250 -50))
+      (pin Rect[A]Pad_60x60_mil 1 -200 0)
+      (pin Round[A]Pad_60_mil 2 -100 0)
+      (pin Round[A]Pad_60_mil 3 0 0)
+      (pin Round[A]Pad_60_mil 4 100 0)
+      (pin Round[A]Pad_60_mil 5 200 0)
+    )
+    (image pin_array_3x2
+      (outline (path signal 8  150 -100  -150 -100))
+      (outline (path signal 8  -150 100  150 100))
+      (outline (path signal 8  150 100  150 -100))
+      (outline (path signal 8  -150 -100  -150 100))
+      (pin Rect[A]Pad_60x60_mil 1 -100 -50)
+      (pin Round[A]Pad_60_mil 2 -100 50)
+      (pin Round[A]Pad_60_mil 3 0 -50)
+      (pin Round[A]Pad_60_mil 4 0 50)
+      (pin Round[A]Pad_60_mil 5 100 -50)
+      (pin Round[A]Pad_60_mil 6 100 50)
+    )
+    (image PIN_ARRAY_3X1
+      (outline (path signal 6  -150 -50  -150 50))
+      (outline (path signal 6  -150 50  150 50))
+      (outline (path signal 6  150 50  150 -50))
+      (outline (path signal 6  150 -50  -150 -50))
+      (outline (path signal 6  -50 50  -50 -50))
+      (pin Rect[A]Pad_60x60_mil 1 -100 0)
+      (pin Round[A]Pad_60_mil 2 0 0)
+      (pin Round[A]Pad_60_mil 3 100 0)
+    )
+    (image PIN_ARRAY_2X1
+      (outline (path signal 6  -100 -50  -100 50))
+      (outline (path signal 6  -100 50  100 50))
+      (outline (path signal 6  100 50  100 -50))
+      (outline (path signal 6  100 -50  -100 -50))
+      (pin Rect[A]Pad_60x60_mil 1 -50 0)
+      (pin Round[A]Pad_60_mil 2 50 0)
+    )
+    (image "LED-3MM"
+      (outline (path signal 10  72 -50  72 50))
+      (pin Round[A]Pad_66_mil 1 -50 0)
+      (pin Round[A]Pad_66_mil 2 50 0)
+    )
+    (image "DIP-8__300"
+      (outline (path signal 10  -200 50  -150 50))
+      (outline (path signal 10  -150 50  -150 -50))
+      (outline (path signal 10  -150 -50  -200 -50))
+      (outline (path signal 10  -200 100  200 100))
+      (outline (path signal 10  200 100  200 -100))
+      (outline (path signal 10  200 -100  -200 -100))
+      (outline (path signal 10  -200 -100  -200 100))
+      (pin Rect[A]Pad_55x55_mil 1 -150 -150)
+      (pin Round[A]Pad_55_mil 2 -50 -150)
+      (pin Round[A]Pad_55_mil 3 50 -150)
+      (pin Round[A]Pad_55_mil 4 150 -150)
+      (pin Round[A]Pad_55_mil 5 150 150)
+      (pin Round[A]Pad_55_mil 6 50 150)
+      (pin Round[A]Pad_55_mil 7 -50 150)
+      (pin Round[A]Pad_55_mil 8 -150 150)
+    )
+    (padstack Round[A]Pad_55_mil
+      (shape (circle Front 55))
+      (shape (circle Back 55))
+      (attach off)
+    )
+    (padstack Round[A]Pad_60_mil
+      (shape (circle Front 60))
+      (shape (circle Back 60))
+      (attach off)
+    )
+    (padstack Round[A]Pad_66_mil
+      (shape (circle Front 66))
+      (shape (circle Back 66))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_55x55_mil
+      (shape (rect Front -27.5 -27.5 27.5 27.5))
+      (shape (rect Back -27.5 -27.5 27.5 27.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_60x60_mil
+      (shape (rect Front -30 -30 30 30))
+      (shape (rect Back -30 -30 30 30))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:25_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:0_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+  )
+  (network
+    (net "N-000001"
+      (pins CON1-6 conn_3-2 Battery1-2 conn_2-2 D1-2 IC1-4)
+    )
+    (net "N-000002"
+      (pins CON1-2 conn_3-1 conn_3-3 Battery1-1 conn_2-1 IC1-8)
+    )
+    (net "N-000003"
+      (pins R1-1 Signal1-1 CON1-4 IC1-5)
+    )
+    (net "N-000004"
+      (pins R1-2 D1-1)
+    )
+    (net "N-000005"
+      (pins Signal1-4 IC1-3)
+    )
+    (net "N-000006"
+      (pins CON1-5 IC1-1)
+    )
+    (net "N-000007"
+      (pins Signal1-5 IC1-2)
+    )
+    (net "N-000008"
+      (pins Signal1-2 CON1-1 IC1-6)
+    )
+    (net "N-000009"
+      (pins Signal1-3 CON1-3 IC1-7)
+    )
+    (class kicad_default "" "N-000001" "N-000002" "N-000003" "N-000004" "N-000005"
+      "N-000006" "N-000007" "N-000008" "N-000009"
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 8)
+        (clearance 10.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

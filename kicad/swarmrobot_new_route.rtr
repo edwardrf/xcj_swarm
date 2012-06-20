@@ -1,5 +1,5 @@
 #
-# RTR file created by ELECTRA V2.8.1 made 06/06/2012 at 23:01:21
+# RTR file created by ELECTRA V2.8.1 made 06/07/2012 at 13:46:42
 # 
 set run_memory 1
 set run_fanout 1
@@ -20,6 +20,6 @@ set share_dist 0
 set init_route_passes 10
 set init_clean_passes 2
 set final_route_passes 10
-set final_clean_passes 1
+set final_clean_passes 2
 set fanout_passes 5
 set filter_passes 5
