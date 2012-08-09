@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sun 03 Jun 2012 09:02:36 PM CST
+# EESchema Netlist Version 1.1 created  Sat 14 Jul 2012 03:18:13 PM CST
 (
  ( /4FC08CDA DIP-20__300 ATTINY2313 ATTINY2313DIP/SO
   ( 1 N-000030 )
@@ -73,12 +73,12 @@
   ( 2 N-000031 )
  )
  ( /4FCB44FB PINHEAD1-6 P4 CONN_6
-  ( 1 N-000030 )
-  ( 2 N-000013 )
-  ( 3 N-000029 )
-  ( 4 N-000009 )
-  ( 5 N-000012 )
-  ( 6 N-000002 )
+  ( 1 N-000002 )
+  ( 2 N-000012 )
+  ( 3 N-000009 )
+  ( 4 N-000029 )
+  ( 5 N-000013 )
+  ( 6 N-000030 )
  )
  ( /4FCB4A84 PINHEAD1-2 PWR_IN1 CONN_2
   ( 1 N-000001 )
@@ -88,7 +88,7 @@
   ( 1 N-000006 )
   ( 2 GND )
  )
- ( /4FCB29B6 swdip3 PWR_SWITCH1 SWITCH_INV
+ ( /4FCB29B6 Switch6pin PWR_SWITCH1 SWITCH_INV
   ( 1 ? )
   ( 2 N-000001 )
   ( 3 N-000016 )

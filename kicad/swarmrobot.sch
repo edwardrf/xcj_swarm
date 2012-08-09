@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Jun 2012 08:16:12 PM CST
+EESchema Schematic File Version 2  date Mon 02 Jul 2012 05:04:04 PM CST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "3 jun 2012"
+Date "28 jun 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,7 +47,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	9900 2700 9650 2700
+	9650 2700 9900 2700
 Wire Wire Line
 	9900 2700 9900 3200
 Wire Wire Line
@@ -328,11 +328,11 @@ $EndComp
 $Comp
 L CONN_6 P4
 U 1 1 4FCB44FB
-P 7650 4850
-F 0 "P4" V 7600 4850 60  0000 C CNN
-F 1 "CONN_6" V 7700 4850 60  0000 C CNN
-	1    7650 4850
-	-1   0    0    1   
+P 8350 4850
+F 0 "P4" V 8300 4850 60  0000 C CNN
+F 1 "CONN_6" V 8400 4850 60  0000 C CNN
+	1    8350 4850
+	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_6 P2

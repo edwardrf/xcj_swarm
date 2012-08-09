@@ -1,6 +1,6 @@
-update=Sun 03 Jun 2012 08:55:30 PM CST
+update=Sat 14 Jul 2012 03:16:50 PM CST
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -68,6 +68,11 @@ LibName30=valves
 LibName31=st-microelectronics/l293e
 LibName32=attiny
 LibName33=/home/edwardrf/kicad/lib/attiny
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=320
@@ -86,6 +91,7 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=swarmrobot.net
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -97,9 +103,4 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=/home/edwardrf/kicad/lib/78L05
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName12=lib/Switch6pin

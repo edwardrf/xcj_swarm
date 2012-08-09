@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Sun 03 Jun 2012 09:02:36 PM CST
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Sat 14 Jul 2012 03:18:13 PM CST
 
 BeginCmp
 TimeStamp = /4FC08CDA;
@@ -81,7 +81,7 @@ BeginCmp
 TimeStamp = /4FCB29B6;
 Reference = PWR_SWITCH1;
 ValeurCmp = SWITCH_INV;
-IdModule  = swdip3;
+IdModule  = Switch6pin;
 EndCmp
 
 BeginCmp

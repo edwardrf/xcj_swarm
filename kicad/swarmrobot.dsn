@@ -1,4 +1,4 @@
-(pcb /home/edwardrf/kicad/swarmrobot/swarmrobot.dsn
+(pcb /home/edwardrf/git/xcj_swarm/kicad/swarmrobot.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -21,53 +21,52 @@
       )
     )
     (boundary
-      (path pcb 0  3150 -3150  3150 -3050  3150 -3100  3150 -3150  1200 -3150
-            1200 -1200  3150 -1200  3150 -3150)
+      (path pcb 0  3700 -3150  1900 -3150  1900 -1350  3700 -1350  3700 -3150)
     )
     (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
     (rule
-      (width 8)
-      (clearance 10.1)
-      (clearance 10.1 (type default_smd))
-      (clearance 2.5 (type smd_smd))
+      (width 16)
+      (clearance 8.1)
+      (clearance 8.1 (type default_smd))
+      (clearance 2 (type smd_smd))
     )
   )
   (placement
     (component R1
-      (place R3 1950 -2850 front 90 (PN 200))
-      (place R2 1700 -2850 front 90 (PN 200))
-      (place R1 2200 -2850 front 90 (PN 200))
+      (place R3 2400 -2800 front 90 (PN 200))
+      (place R2 2600 -2800 front 90 (PN 200))
+      (place R1 2800 -2800 front 90 (PN 200))
     )
     (component "PINHEAD1-6"
-      (place P4 3000 -2100 front 90 (PN CONN_6))
-      (place P2 1350 -2100 front 90 (PN CONN_6))
+      (place P2 2000 -1900 front 90 (PN CONN_6))
+      (place P4 3600 -1900 front 270 (PN CONN_6))
     )
     (component "PINHEAD1-2"
-      (place PWR_IN1 3000 -3050 front 270 (PN CONN_2))
-      (place P3 1350 -1700 front 90 (PN CONN_2))
-      (place P1 3000 -1700 front 270 (PN CONN_2))
-      (place M2 1350 -1350 front 90 (PN CONN_2))
-      (place M1 3000 -1400 front 270 (PN CONN_2))
+      (place M1 3600 -1500 front 270 (PN CONN_2))
+      (place M2 2000 -1500 front 90 (PN CONN_2))
+      (place P1 3600 -2300 front 270 (PN CONN_2))
+      (place P3 2000 -2300 front 90 (PN CONN_2))
+      (place PWR_IN1 3600 -3050 front 270 (PN CONN_2))
     )
     (component pin_array_3x2
-      (place ICSP1 1350 -3050 front 0 (PN CONN_3X2))
-    )
-    (component "LED-3MM"
-      (place PWR_LED1 2200 -3050 front 270 (PN LED))
-      (place RX_LED1 1700 -3050 front 270 (PN LED))
-      (place TX_LED1 1950 -3050 front 270 (PN LED))
-    )
-    (component "DIP-20__300"
-      (place ATTINY2313 1900 -1800 front 90 (PN ATTINY2313DIP/SO))
-    )
-    (component "DIP-16__300"
-      (place L293D1 2500 -1700 front 90 (PN L293D))
-    )
-    (component swdip3
-      (place PWR_SWITCH1 2600 -2950 front 180 (PN SWITCH_INV))
+      (place ICSP1 2080 -3040 front 0 (PN CONN_3X2))
     )
     (component LM78LXX
-      (place U1 2950 -2750 front 135 (PN 78L05))
+      (place U1 3600 -2800 front 135 (PN 78L05))
+    )
+    (component "LED-3MM"
+      (place PWR_LED1 2800 -3050 front 270 (PN LED))
+      (place RX_LED1 2600 -3050 front 270 (PN LED))
+      (place TX_LED1 2400 -3050 front 270 (PN LED))
+    )
+    (component "DIP-20__300"
+      (place ATTINY2313 2550 -1950 front 90 (PN ATTINY2313DIP/SO))
+    )
+    (component "DIP-16__300"
+      (place L293D1 3050 -1850 front 90 (PN L293D))
+    )
+    (component Switch6pin
+      (place PWR_SWITCH1 3200 -2950 front 90 (PN SWITCH_INV))
     )
   )
   (library
@@ -116,6 +115,19 @@
       (pin Round[A]Pad_60_mil 4 0 50)
       (pin Round[A]Pad_60_mil 5 100 -50)
       (pin Round[A]Pad_60_mil 6 100 50)
+    )
+    (image LM78LXX
+      (outline (path signal 12  -50 -100  100 50))
+      (outline (path signal 12  100 50  100 100))
+      (outline (path signal 12  100 100  50 150))
+      (outline (path signal 12  50 150  -50 150))
+      (outline (path signal 12  -50 150  -150 50))
+      (outline (path signal 12  -150 50  -150 -50))
+      (outline (path signal 12  -150 -50  -100 -100))
+      (outline (path signal 12  -100 -100  -50 -100))
+      (pin Round[A]Pad_55_mil VI 50 50)
+      (pin Rect[A]Pad_55x55_mil GND -50 50)
+      (pin Round[A]Pad_55_mil VO -50 -50)
     )
     (image "LED-3MM"
       (outline (path signal 10  72 -50  72 50))
@@ -177,36 +189,17 @@
       (pin Round[A]Pad_55_mil 15 -250 150)
       (pin Round[A]Pad_55_mil 16 -350 150)
     )
-    (image swdip3
-      (outline (path signal 12  -150 -50  -150 50))
-      (outline (path signal 12  -150 50  150 50))
-      (outline (path signal 12  150 50  150 -50))
-      (outline (path signal 12  150 -50  -150 -50))
-      (outline (path signal 12  -200 200  200 200))
-      (outline (path signal 12  200 200  200 -200))
-      (outline (path signal 12  200 -200  -200 -200))
-      (outline (path signal 12  -200 -200  -200 200))
-      (outline (path signal 12  -50 50  -50 -50))
-      (outline (path signal 12  50 50  50 -50))
-      (pin Rect[A]Pad_60x60_mil 1 -100 -150)
-      (pin Round[A]Pad_60_mil 2 0 -150)
-      (pin Round[A]Pad_60_mil 3 100 -150)
-      (pin Round[A]Pad_60_mil 4 100 150)
-      (pin Round[A]Pad_60_mil 5 0 150)
-      (pin Round[A]Pad_60_mil 6 -100 150)
-    )
-    (image LM78LXX
-      (outline (path signal 12  -50 -100  100 50))
-      (outline (path signal 12  100 50  100 100))
-      (outline (path signal 12  100 100  50 150))
-      (outline (path signal 12  50 150  -50 150))
-      (outline (path signal 12  -50 150  -150 50))
-      (outline (path signal 12  -150 50  -150 -50))
-      (outline (path signal 12  -150 -50  -100 -100))
-      (outline (path signal 12  -100 -100  -50 -100))
-      (pin Round[A]Pad_55_mil VI 50 50)
-      (pin Rect[A]Pad_55x55_mil GND -50 50)
-      (pin Round[A]Pad_55_mil VO -50 -50)
+    (image Switch6pin
+      (outline (path signal 15  -137.8 137.8  137.8 137.8))
+      (outline (path signal 15  137.8 137.8  137.8 -137.8))
+      (outline (path signal 15  137.8 -137.8  -137.8 -137.8))
+      (outline (path signal 15  -137.8 -137.8  -137.8 137.8))
+      (pin Round[A]Pad_60_mil 1 -78.7 98.4)
+      (pin Round[A]Pad_60_mil 2 0 98.4)
+      (pin Round[A]Pad_60_mil 3 78.7 98.4)
+      (pin Round[A]Pad_60_mil 4 -78.7 -98.4)
+      (pin Round[A]Pad_60_mil 5 0 -98.4)
+      (pin Round[A]Pad_60_mil 6 78.7 -98.4)
     )
     (padstack Round[A]Pad_55_mil
       (shape (circle Front 55))
@@ -256,14 +249,14 @@
   )
   (network
     (net GND
-      (pins PWR_IN1-2 P3-1 P1-2 ICSP1-6 PWR_LED1-2 RX_LED1-2 TX_LED1-2 ATTINY2313-10
-        L293D1-4 L293D1-5 L293D1-12 L293D1-13 U1-GND)
+      (pins P1-2 P3-1 PWR_IN1-2 ICSP1-6 U1-GND PWR_LED1-2 RX_LED1-2 TX_LED1-2 ATTINY2313-10
+        L293D1-4 L293D1-5 L293D1-12 L293D1-13)
     )
     (net "N-000001"
       (pins PWR_IN1-1 PWR_SWITCH1-2)
     )
     (net "N-000002"
-      (pins P4-6 ATTINY2313-15)
+      (pins P4-1 ATTINY2313-15)
     )
     (net "N-000003"
       (pins R3-2 P2-2 ATTINY2313-3)
@@ -284,7 +277,7 @@
       (pins R2-1 RX_LED1-1)
     )
     (net "N-000009"
-      (pins P4-4 ICSP1-4 ATTINY2313-17)
+      (pins P4-3 ICSP1-4 ATTINY2313-17)
     )
     (net "N-000010"
       (pins ATTINY2313-9 L293D1-9)
@@ -293,10 +286,10 @@
       (pins ATTINY2313-14 L293D1-1)
     )
     (net "N-000012"
-      (pins P4-5 ATTINY2313-16)
+      (pins P4-2 ATTINY2313-16)
     )
     (net "N-000013"
-      (pins P4-2 ICSP1-3 ATTINY2313-19)
+      (pins P4-5 ICSP1-3 ATTINY2313-19)
     )
     (net "N-000014"
       (pins ATTINY2313-4 L293D1-2)
@@ -305,7 +298,7 @@
       (pins M1-1 L293D1-6)
     )
     (net "N-000016"
-      (pins L293D1-8 PWR_SWITCH1-3 U1-VI)
+      (pins U1-VI L293D1-8 PWR_SWITCH1-3)
     )
     (net "N-000017"
       (pins M2-2 L293D1-11)
@@ -335,13 +328,13 @@
       (pins P2-6 ATTINY2313-11)
     )
     (net "N-000029"
-      (pins P4-3 ICSP1-1 ATTINY2313-18)
+      (pins P4-4 ICSP1-1 ATTINY2313-18)
     )
     (net "N-000030"
-      (pins P4-1 ICSP1-5 ATTINY2313-1)
+      (pins P4-6 ICSP1-5 ATTINY2313-1)
     )
     (net "N-000031"
-      (pins R1-2 P3-2 P1-1 ICSP1-2 ATTINY2313-20 L293D1-16 U1-VO)
+      (pins R1-2 P1-1 P3-2 ICSP1-2 U1-VO ATTINY2313-20 L293D1-16)
     )
     (class kicad_default "" GND "N-000001" "N-000002" "N-000003" "N-000004"
       "N-000005" "N-000006" "N-000007" "N-000008" "N-000009" "N-000010" "N-000011"
@@ -352,14 +345,11 @@
         (use_via Via[0-1]_35:25_mil)
       )
       (rule
-        (width 8)
-        (clearance 10.1)
+        (width 16)
+        (clearance 8.1)
       )
     )
   )
   (wiring
-    (wire (path Back 8  2200 -2900  2200 -3000)(net "N-000006")(type protect))
-    (wire (path Back 8  1950 -2900  1950 -3000)(net "N-000007")(type protect))
-    (wire (path Back 8  1700 -2900  1700 -3000)(net "N-000008")(type protect))
   )
 )
